@@ -1,5 +1,3 @@
-@file:Suppress("unused")
-
 package com.an3ll.service
 
 import com.an3ll.data.Tables.USERS
