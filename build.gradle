@@ -41,7 +41,6 @@ repositories {
 
 
 dependencies {
-//	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-jooq')
 	compile('org.springframework.boot:spring-boot-starter-web')
 
@@ -97,3 +96,6 @@ jooq {
     }
 }
 
+//do not generate jooq when building by default
+project.tasks.getByName('compileKotlin').dependsOn -= 'generateSampleJooqSchemaSource'
+project.tasks.getByName('clean').dependsOn -= 'cleanGenerateSampleJooqSchemaSource'
