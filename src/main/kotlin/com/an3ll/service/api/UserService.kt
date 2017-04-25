@@ -1,4 +1,4 @@
-package com.an3ll.service
+package com.an3ll.service.api
 
 import com.an3ll.data.tables.pojos.Users
 

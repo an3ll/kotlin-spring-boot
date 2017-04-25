@@ -5,6 +5,7 @@ package com.an3ll.service
 import com.an3ll.data.Tables.USERS
 import com.an3ll.data.tables.pojos.Users
 import com.an3ll.data.tables.records.UsersRecord
+import com.an3ll.service.api.UserService
 import org.jooq.DSLContext
 import org.springframework.stereotype.Service
 
