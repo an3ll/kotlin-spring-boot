@@ -86,8 +86,8 @@ jooq {
                 relations = true
                 deprecated = false
                 records = true
-                immutablePojos = false
-                fluentSetters = truel
+                pojos = true
+                fluentSetters = true
             }
             target {
                 packageName = 'com.an3ll.data'
